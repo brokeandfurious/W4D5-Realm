@@ -8,24 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		9D15C3F81FC8A4E90015881E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D15C3F71FC8A4E90015881E /* AppDelegate.m */; };
-		9D15C3FB1FC8A4E90015881E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D15C3FA1FC8A4E90015881E /* ViewController.m */; };
 		9D15C3FE1FC8A4E90015881E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D15C3FC1FC8A4E90015881E /* Main.storyboard */; };
 		9D15C4001FC8A4E90015881E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D15C3FF1FC8A4E90015881E /* Assets.xcassets */; };
 		9D15C4031FC8A4E90015881E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D15C4011FC8A4E90015881E /* LaunchScreen.storyboard */; };
 		9D15C4061FC8A4E90015881E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D15C4051FC8A4E90015881E /* main.m */; };
+		9D15C40E1FC8A5DE0015881E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D15C40D1FC8A5DE0015881E /* RootViewController.m */; };
+		9D15C4111FC8AA900015881E /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D15C4101FC8AA900015881E /* Room.m */; };
+		9D15C4141FC8AA9E0015881E /* Furniture.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D15C4131FC8AA9E0015881E /* Furniture.m */; };
+		9D15C4161FC8AB140015881E /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D15C4151FC8AB140015881E /* libc++.1.tbd */; };
+		9D15C4191FC8ACEA0015881E /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D15C4181FC8ACEA0015881E /* CustomTableViewCell.m */; };
+		9D1771AA0A8BB055C08FF238 /* libPods-W4D5-RealmTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B86CB2454202F7B26F9FEB6 /* libPods-W4D5-RealmTest.a */; };
+		9D7DDED21FCB92DD00BA7E9D /* RoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7DDED11FCB92DD00BA7E9D /* RoomViewController.m */; };
+		9D7DDED51FCB983000BA7E9D /* FurnitureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7DDED41FCB983000BA7E9D /* FurnitureCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B86CB2454202F7B26F9FEB6 /* libPods-W4D5-RealmTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-W4D5-RealmTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D15C3F31FC8A4E90015881E /* W4D5-RealmTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "W4D5-RealmTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D15C3F61FC8A4E90015881E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D15C3F71FC8A4E90015881E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9D15C3F91FC8A4E90015881E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9D15C3FA1FC8A4E90015881E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9D15C3FD1FC8A4E90015881E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D15C3FF1FC8A4E90015881E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D15C4021FC8A4E90015881E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D15C4041FC8A4E90015881E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D15C4051FC8A4E90015881E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D15C40C1FC8A5DE0015881E /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9D15C40D1FC8A5DE0015881E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9D15C40F1FC8AA900015881E /* Room.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		9D15C4101FC8AA900015881E /* Room.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		9D15C4121FC8AA9E0015881E /* Furniture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Furniture.h; sourceTree = "<group>"; };
+		9D15C4131FC8AA9E0015881E /* Furniture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Furniture.m; sourceTree = "<group>"; };
+		9D15C4151FC8AB140015881E /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		9D15C4171FC8ACEA0015881E /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		9D15C4181FC8ACEA0015881E /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		9D7DDED01FCB92DD00BA7E9D /* RoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoomViewController.h; sourceTree = "<group>"; };
+		9D7DDED11FCB92DD00BA7E9D /* RoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomViewController.m; sourceTree = "<group>"; };
+		9D7DDED31FCB983000BA7E9D /* FurnitureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FurnitureCell.h; sourceTree = "<group>"; };
+		9D7DDED41FCB983000BA7E9D /* FurnitureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FurnitureCell.m; sourceTree = "<group>"; };
+		C2FE5830CE20A0E067F15BC9 /* Pods-W4D5-RealmTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-W4D5-RealmTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-W4D5-RealmTest/Pods-W4D5-RealmTest.release.xcconfig"; sourceTree = "<group>"; };
+		C9C43DE8DBCB3848CDAE88DC /* Pods-W4D5-RealmTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-W4D5-RealmTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-W4D5-RealmTest/Pods-W4D5-RealmTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +54,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1771AA0A8BB055C08FF238 /* libPods-W4D5-RealmTest.a in Frameworks */,
+				9D15C4161FC8AB140015881E /* libc++.1.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6489E7B594AF2C7ED97F0011 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D15C4151FC8AB140015881E /* libc++.1.tbd */,
+				3B86CB2454202F7B26F9FEB6 /* libPods-W4D5-RealmTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EAC3691F9D84D09BB5B881A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9C43DE8DBCB3848CDAE88DC /* Pods-W4D5-RealmTest.debug.xcconfig */,
+				C2FE5830CE20A0E067F15BC9 /* Pods-W4D5-RealmTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9D15C3EA1FC8A4E90015881E = {
 			isa = PBXGroup;
 			children = (
 				9D15C3F51FC8A4E90015881E /* W4D5-RealmTest */,
 				9D15C3F41FC8A4E90015881E /* Products */,
+				7EAC3691F9D84D09BB5B881A /* Pods */,
+				6489E7B594AF2C7ED97F0011 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,13 +103,23 @@
 			children = (
 				9D15C3F61FC8A4E90015881E /* AppDelegate.h */,
 				9D15C3F71FC8A4E90015881E /* AppDelegate.m */,
-				9D15C3F91FC8A4E90015881E /* ViewController.h */,
-				9D15C3FA1FC8A4E90015881E /* ViewController.m */,
+				9D15C40C1FC8A5DE0015881E /* RootViewController.h */,
+				9D15C40D1FC8A5DE0015881E /* RootViewController.m */,
+				9D15C4171FC8ACEA0015881E /* CustomTableViewCell.h */,
+				9D15C4181FC8ACEA0015881E /* CustomTableViewCell.m */,
+				9D7DDED01FCB92DD00BA7E9D /* RoomViewController.h */,
+				9D7DDED11FCB92DD00BA7E9D /* RoomViewController.m */,
+				9D7DDED31FCB983000BA7E9D /* FurnitureCell.h */,
+				9D7DDED41FCB983000BA7E9D /* FurnitureCell.m */,
 				9D15C3FC1FC8A4E90015881E /* Main.storyboard */,
 				9D15C3FF1FC8A4E90015881E /* Assets.xcassets */,
 				9D15C4011FC8A4E90015881E /* LaunchScreen.storyboard */,
 				9D15C4041FC8A4E90015881E /* Info.plist */,
 				9D15C4051FC8A4E90015881E /* main.m */,
+				9D15C40F1FC8AA900015881E /* Room.h */,
+				9D15C4101FC8AA900015881E /* Room.m */,
+				9D15C4121FC8AA9E0015881E /* Furniture.h */,
+				9D15C4131FC8AA9E0015881E /* Furniture.m */,
 			);
 			path = "W4D5-RealmTest";
 			sourceTree = "<group>";
@@ -78,9 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D15C4091FC8A4E90015881E /* Build configuration list for PBXNativeTarget "W4D5-RealmTest" */;
 			buildPhases = (
+				6B4C2655C880555D661819E1 /* [CP] Check Pods Manifest.lock */,
 				9D15C3EF1FC8A4E90015881E /* Sources */,
 				9D15C3F01FC8A4E90015881E /* Frameworks */,
 				9D15C3F11FC8A4E90015881E /* Resources */,
+				1946DC4222E4CA19127CB14A /* [CP] Embed Pods Frameworks */,
+				A04D29118640A8C738AC00B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,14 +193,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1946DC4222E4CA19127CB14A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-W4D5-RealmTest/Pods-W4D5-RealmTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B4C2655C880555D661819E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-W4D5-RealmTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A04D29118640A8C738AC00B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-W4D5-RealmTest/Pods-W4D5-RealmTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D15C3EF1FC8A4E90015881E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D15C3FB1FC8A4E90015881E /* ViewController.m in Sources */,
+				9D15C4141FC8AA9E0015881E /* Furniture.m in Sources */,
 				9D15C4061FC8A4E90015881E /* main.m in Sources */,
+				9D15C4191FC8ACEA0015881E /* CustomTableViewCell.m in Sources */,
 				9D15C3F81FC8A4E90015881E /* AppDelegate.m in Sources */,
+				9D7DDED21FCB92DD00BA7E9D /* RoomViewController.m in Sources */,
+				9D15C4111FC8AA900015881E /* Room.m in Sources */,
+				9D7DDED51FCB983000BA7E9D /* FurnitureCell.m in Sources */,
+				9D15C40E1FC8A5DE0015881E /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +388,7 @@
 		};
 		9D15C40A1FC8A4E90015881E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C43DE8DBCB3848CDAE88DC /* Pods-W4D5-RealmTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +402,7 @@
 		};
 		9D15C40B1FC8A4E90015881E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2FE5830CE20A0E067F15BC9 /* Pods-W4D5-RealmTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
